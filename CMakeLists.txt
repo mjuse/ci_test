@@ -9,6 +9,6 @@ enable_testing()
 
 add_executable(main main.cpp utility.cpp utility.h) 
 
-add_executable(unittest tests.cpp utility.cpp utility.h)
+add_executable(unittest gtest/tests.cpp utility.cpp utility.h)
 target_link_libraries(unittest gtest gtest_main)
 add_test(unittest unittest)
