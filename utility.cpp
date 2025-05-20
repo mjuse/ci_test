@@ -4,5 +4,5 @@
 #include <string>
 
 std::string get_greeting() {
-    return "Hello, world!";
+    return "Hello, world";
 }
